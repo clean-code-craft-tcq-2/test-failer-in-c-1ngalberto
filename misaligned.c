@@ -7,7 +7,7 @@ int printColorMap() {
     int i = 0, j = 0;
     for(i = 0; i < 5; i++) {
         for(j = 0; j < 5; j++) {
-            printf("%-3d | %*s | %*s\n", i * 5 + j, majorColor[i], minorColor[i]);
+            printf("%-3d | %-10s | %10s\n", i * 5 + j, majorColor[i], minorColor[i]);
         }
     }
     return i * j;
